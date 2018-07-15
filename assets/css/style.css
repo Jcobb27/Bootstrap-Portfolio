@@ -5,11 +5,8 @@ body {
     height: 100%;
 }
 
-.navbar-nav {
-    list-style-type: none;
-    margin: 0;
+#navbarSection {
     padding: 0;
-    padding-top: 10px;
 }
 
 #Name {
@@ -21,6 +18,7 @@ body {
     border-radius: 5px;
     font-size: 30px;
     padding: 10px;
+    margin-left: 10px;
 }
 
  li a {
