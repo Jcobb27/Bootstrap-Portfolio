@@ -78,8 +78,14 @@ li a:hover {
     border-radius: 5px;
 }
 
+.portfolioImage {
+    height: 70%;
+    width:auto;
+    margin:10px;
+}
+
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
