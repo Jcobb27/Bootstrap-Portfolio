@@ -4,19 +4,6 @@ body {
     background-image: url("../images/leaves-pattern.png");
 }
 
-/* flexbox sticky footer isn't working... revisit?
-.site {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    width:100%;
-}
-
-.flexGrow {
-    flex: 1;
- }
-*/
-
 #navbarSection {
     padding: 0;
     background-color: #ffffff;
@@ -59,7 +46,7 @@ li a:hover {
     color: white;
 }
 
-.container {
+.containerHB {
     border: 1px solid #dddddd;
     background-color: #ffffff;
     overflow: auto;
@@ -78,8 +65,10 @@ li a:hover {
 }
 
 #jenn {
-    width: 100%;
-    height: auto;
+    width: 250px;
+    height: auto; 
+    float:left;
+    margin: 0 10px 10px 0;
 }
 
 #aboutText {
@@ -103,6 +92,7 @@ li a:hover {
 .imgWrapper {
     position: relative;
     overflow: auto;
+    margin-bottom: 10px;
 }
 
 .imgOverlay {
@@ -123,17 +113,33 @@ li a:hover {
     padding: 15px 0;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+.footer{
     background-color: #666666;
     color: white;
-    height: 60px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 0;
     border-top: 10px solid rgb(128, 118, 173);
     text-align: center;
+    padding: 20px 0;
+}
+#sticky-footer {
+    background-color: #666666;
+    color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 10px;
-    line-height: 50px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    border-top: 10px solid rgb(128, 118, 173);
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0; 
+    width: 100%;
+}
+.fa-linkedin {
+    color: rgb(16, 16, 185);
+}
+.fa-github {
+    color: black;
 }
