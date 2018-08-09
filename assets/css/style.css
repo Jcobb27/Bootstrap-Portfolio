@@ -1,23 +1,25 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("../images/leaves-pattern.png");
+}
+
+#gradient {
+    background: linear-gradient(rgb(197, 209, 250), white);
+    /* background: linear-gradient(rgb(84, 169, 184), white); */
 }
 
 #navbarSection {
     padding: 0;
-    background-color: #ffffff;
-    border-bottom: 2px solid #dddddd;
+    border-bottom: 2px solid rgb(177, 175, 175);
 }
 
 #navContainer {
-    border: 1px solid #ffffff;
     margin-top: 0;
     padding: 0;
 }
 
 #Name {
-    background-color: rgb(128, 118, 173);
+    background-color: #91999c;
     color: #ffffff;
     margin: 0;
     height: 75px;
@@ -41,8 +43,12 @@ li a {
     border-radius: 10px;
 }
 
+.nounderline{
+    text-decoration: none !important
+}
+
 li a:hover {
-    background-color: #C79BB8;
+    background-color: #4aaaa5;
     color: white;
 }
 
@@ -77,8 +83,8 @@ li a:hover {
 }
 
 #submitButton {
-    background-color: #4aaaa5;
-    border: 1px solid #4aaaa5;
+    background-color: #35817d;
+    border: 1px solid #35817d;
     margin-bottom: 10px;
     border-radius: 5px;
 }
@@ -107,8 +113,8 @@ li a:hover {
 #button {
     width: 100%;
     overflow: hidden;
-    background-color: #4aaaa5;
-    border: 1 px solid #4aaaa5;
+    background-color: #35817d;
+    border: 1 px solid #35817d;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     padding: 15px 0;
 }
@@ -119,17 +125,18 @@ li a:hover {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin-top: 30px;
     margin-bottom: 0;
-    border-top: 10px solid rgb(128, 118, 173);
+    border-top: 10px solid rgb(112, 97, 177);
     text-align: center;
     padding: 20px 0;
 }
 #sticky-footer {
-    background-color: #666666;
+    background-color: #858484;
     color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin-top: 30px;
     margin-bottom: 0;
-    border-top: 10px solid rgb(128, 118, 173);
+    border-top: 10px solid rgb(112, 97, 177);
+    /* border-top: 10px solid #35817d; */
     text-align: center;
     padding: 20px 0;
     position: fixed;
@@ -142,4 +149,10 @@ li a:hover {
 }
 .fa-github {
     color: black;
+}
+
+#CCcaption{
+    color: black;
+    font-size: 20px;
+    background-color: rgb(128, 128, 128, 0.9);
 }
